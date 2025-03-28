@@ -43,7 +43,7 @@
 ]
 
 #custom-title("Summary")[
-  Computer Science graduate (Sapienza) and Full-Stack Developer with knowledge in most modern languages.
+  Computer Science BSc enrolled (Sapienza) and Full-Stack Developer with knowledge in most modern languages.
   Curious and ambitious, I like solving problems and always look for a way to deepen my understanding of software design,
    system architecture, and theoretical computer science.
 ]
