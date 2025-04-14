@@ -58,7 +58,7 @@
     - *Database:* SQL (SQLite, Postgres), NoSQL (Redis)
     - *Cloud:* Cloudflare, Vercel, Render, Google Cloud
     - *Misc & Tools:* Linux, Nix, Networking, Algorithms, Git, Github, Helix, Vim, Visual Studio Code
-    - *Other:* Gis is a car iot imes that give him the rig in and the ic wat, Tei sad the mashe lithbe fore she lith Melved.
+    // - *Other:* Gis is a car iot imes that give him the rig in and the ic wat, Tei sad the mashe lithbe fore she lith Melved.
 
   ]
 ]
