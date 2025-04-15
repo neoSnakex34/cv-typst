@@ -43,7 +43,7 @@
 ]
 
 #custom-title("Summary")[
-  Computer Science BSc enrolled (Sapienza) and Full-Stack Developer with knowledge in most modern languages.
+  Computer Science BSc enrolled (Sapienza) and passionate full-stack web developer with knowledge in most modern languages.
   Curious and ambitious, I like solving problems and always look for a way to deepen my understanding of software design,
    system architecture, and theoretical computer science.
   
@@ -53,7 +53,7 @@
 #custom-title("Hard Skills")[
   #skills()[
     - *Programming Languages:* Javascript/Typescript[ES6+], Go, Rust, Python, C/C++, Java
-    - *Backend:* Node.js, Express, Docker/Podman, JSON, Insomnia, Curl
+    - *Backend:* Node.js, Express, Docker/Podman, JSON, Insomnia, Curl, Spring Boot
     - *Frontend:* Vue.js, Nuxt.js, React, HTML, CSS, Bootstrap, TailwindCSS 
     - *Database:* SQL (SQLite, Postgres), NoSQL (Redis)
     - *Cloud:* Cloudflare, Vercel, Render, Google Cloud
@@ -76,6 +76,11 @@
 
 
 #custom-title("Projects")[
+#project-heading("spring-store (basic demo of a REST Api in spring boot)",)[
+    #link("https://github.com/neoSnakex34/spring-store")[
+      source
+    ]
+  ]
   #project-heading("SessionBee (PoC of a IoT e-device session handler service)",)[
     #link("https://github.com/neoSnakex34/sessionbee")[
       source
@@ -104,8 +109,8 @@
     ]
     - designed a REST API according to OpenAPI specs
     - implemented backend server in Go
-    - implemented api endpoints via net/http library in Go
-    - implemented basic frontend in Vue.js
+    - added api endpoints via net/http library in Go
+    - created a simple frontend in Vue.js
     - created dockerfiles for easy deployment     
     
   ]
