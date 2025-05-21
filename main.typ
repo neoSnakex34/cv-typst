@@ -76,6 +76,12 @@
 
 
 #custom-title("Projects")[
+
+#project-heading("tossdice (statistically fair dice roller webapp)",)[
+    #link("https://tossdice.pages.dev")[
+      site 
+    ]
+  ]
 #project-heading("spring-store (basic demo of a REST Api in spring boot)",)[
     #link("https://github.com/neoSnakex34/spring-store")[
       source
