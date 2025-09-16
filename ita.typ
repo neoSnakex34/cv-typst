@@ -23,18 +23,18 @@
 #show link: set text(fill: blue, weight: "bold")
 #show link: underline
 
-#custom-title("Education")[
+#custom-title("Istruzione")[
   #education-heading(
     "Sapienza Università di Roma", "Roma, RM",
-    "Bachelor of Science", "Computer Science",
-    datetime(year: 2021, month: 10, day: 1),
+    "Laurea Triennale", "Informatica",
+    datetime(year: 2021, month: 10,day: 1),
     datetime(year: 2026, month: 07,  day: 31)
   )[
     // - Awarded “Most Determined Student” in senior year
   ]
   #education-heading(
     "Liceo Scientifico E. Majorana", "Latina, LT",
-    "Certificate of Secondary Education", "Scientific studies and Computer Science",
+    "Diploma", "Liceo Scientifico delle Scienze Applicate",
     datetime(year: 2014, month: 9, day: 15),
     datetime(year: 2019, month: 7, day: 28)
   )[
@@ -43,22 +43,22 @@
 ]
 
 #custom-title("Summary")[
-  Computer Science BSc enrolled (Sapienza) and passionate technology enthusiast, with a background in hardware related task and full-stack web development.
-  Curious and ambitious, I like solving problems and always look for a way to deepen my understanding of software design,
-   system architecture, and theoretical computer science.
+  Laurendo in Informatica (Sapienza) e forte appassionato di tecnologia con un background in compiti legati all'hardware e full-stack development.
+  Curioso e ambizioso, amo risolvere problemi e cerco sempre il modo di migliore le mie skill in Software Design,
+   Sistemi Operativi, Reti e Informatica Teorica.
   
 
 ]
 
 #custom-title("Hard Skills")[
   #skills()[
-    - *Hardware related:* PC building and configuration, Hardware Troubleshooting, Software Monitoring
-    - *Programming Languages:* Javascript/Typescript[ES6+], Go, Rust, Python, C/C++, Java
+    - *Hardware:* Assemblaggio e Configurazione PC, Diagnostica Hardware, Monitoraggio Software
+    - *Linguaggi di programmazione:* Javascript/Typescript[ES6+], Go, Rust, Python, C/C++, Java
     - *Backend:* Node.js, Express, Docker/Podman, JSON, Insomnia, Curl, Spring Boot
     - *Frontend:* Vue.js, Nuxt.js, React, HTML, CSS, Bootstrap, TailwindCSS 
     - *Database:* SQL (SQLite, Postgres), NoSQL (Redis)
     - *Cloud:* Cloudflare, Vercel, Render, Google Cloud
-    - *Misc & Tools:* Linux, Nix, Networking, Algorithms, Git, Github, Helix, Vim, Visual Studio Code
+    - *Strumenti Vari:* Linux, Nix, Networking, Algoritmi, Git, Github, Helix, Vim, Visual Studio Code
     // - *Other:* Gis is a car iot imes that give him the rig in and the ic wat, Tei sad the mashe lithbe fore she lith Melved.
 
   ]
@@ -66,21 +66,21 @@
 
 #custom-title("Soft Skills")[
   #skills()[
-    - *Languages:* Italian (Native), English (C1)
-    - *Teamwork:* I am able to lead a team as much as I am able to be guided by a leader
-    - *Quick Learning:* I am extremely good at learning new skills and finding out what to do in order to overcome a problem, quickly and autonomously
-    - *Curiosity:* I love studying new topics and dive deep down on interesting and useful things. I use my spare time to improve my knowledge and skills
-    - *Troubleshooting:* : I always provide or ask for the necessary information needed to resolve an issue
+    - *Lingue:* Italiano (Madrelingua), Inglese (C1)
+    - *Teamwork:* Sono in grado di guidare un team tanto quanto sono in grado di seguire le istruzioni di un Leader
+    - *Apprendimento Rapido:* Sono estremamente capace ad apprendere nuove abilità e ad individuare la strategia risolutiva per un problema, velocemente ed in autonomia
+    - *Curiosità:* Amo approfondire nuovi argomenti e mi appassiona apprendere abilità nuove ed utili. Uso il mio tempo libero per milgiorare le mie conoscenze e le mie skill
+    - *Troubleshooting:* : Fornisco o chiedo sempre le corrette informazioni per riuscire a diagnosticare e risolvere un possibile problema
 
   ]
 ]
 
 
-#custom-title("Projects")[
+#custom-title("Progetti")[
 
-#project-heading("tossdice (statistically fair dice roller webapp)",)[
+#project-heading("tossdice (webapp statisticamente accurata per il lancio dei dadi)",)[
     #link("https://tossdice.pages.dev")[
-      site 
+      sito 
     ]
   ]
 // #project-heading("spring-store (basic demo of a REST Api in spring boot)",)[
@@ -88,39 +88,39 @@
 //       source
 //     ]
 //   ]
-  #project-heading("SessionBee (PoC of a IoT e-device session handler service)",)[
+  #project-heading("SessionBee (PoC di un gestore di sessioni per device IoT)",)[
     #link("https://github.com/neoSnakex34/sessionbee")[
-      source
+      codice sorgente
     ]
-    - preliminary analysis on real life use-case scenario
-    - modeled the problem by generalizing it
-    - designed basic, scalable, structure with modern technologies  
+    - analisi preliminare su use-case reali
+    - problema modellato a partire dalla fase iniziale
+    - costruito scheletro base, scalabile, tramite moderne tecnologie web
   ]
 
   #project-heading(
-    "studiomessini.com (speech therapy clinic professional website)",)[
-    #link("https://studiomessini.com")[
-      site
-    ]
-    - designed reusable custom components in vue with bootstrap
-    - enanched SEO using Nuxt tools
-    - deployed on cloudflare with custom domain 
-    - monitoring and updating actively 
+  "studiomessini.com (Sito web di uno studio logopedico)",
+)[
+  #link("https://studiomessini.com")[
+    sito
   ]
+  - progettazione di componenti riutilizzabili in Vue con Bootstrap  
+  - ottimizzazione SEO utilizzando strumenti di Nuxt  
+  - distribuzione su Cloudflare con dominio personalizzato  
+  - monitoraggio e aggiornamento continuo  
+]
 
-  #project-heading(
-    "WasaPhoto (photo sharing social network demo)",
-  )[
-    #link("https://github.com/neoSnakex34/wasaphoto")[
-      source
-    ]
-    - designed a REST API according to OpenAPI specs
-    - implemented backend server in Go
-    - added api endpoints via net/http library in Go
-    - created a simple frontend in Vue.js
-    - created dockerfiles for easy deployment     
-    
+#project-heading(
+  "WasaPhoto (Demo di un social network per la condivisione di foto)",
+)[
+  #link("https://github.com/neoSnakex34/wasaphoto")[
+    codice sorgente
   ]
+  - progettazione di una REST API secondo le specifiche OpenAPI  
+  - implementazione del server backend in Go  
+  - aggiunta di endpoint API tramite la libreria `net/http` in Go  
+  - creazione di un frontend semplice in Vue.js  
+  - realizzazione di Dockerfile per un deploy semplificato  
+]
 ]
 
 // #custom-title("Experience")[  
