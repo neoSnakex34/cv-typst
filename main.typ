@@ -5,7 +5,7 @@
 #let email = "francescojamesfanti@gmail.com"
 #let github = "neoSnakex34"
 #let linkedin = "fjfanti"
-#let personal-site = "francescojames.pages.dev"
+#let personal-site = "francescojames.dev"
 
 #show: resume.with(
   top-margin: 0.45in,
@@ -55,10 +55,10 @@
     - *Hardware related:* PC building and configuration, Hardware Troubleshooting, Software Monitoring
     - *Programming Languages:* Javascript/Typescript[ES6+], Go, Rust, Python, C/C++, Java
     - *Backend:* Node.js, Express, Docker/Podman, JSON, Insomnia, Curl, Spring Boot
-    - *Frontend:* Vue.js, Nuxt.js, React, HTML, CSS, Bootstrap, TailwindCSS 
+    - *Frontend:* Astro, React, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap 
     - *Database:* SQL (SQLite, Postgres), NoSQL (Redis)
     - *Cloud:* Cloudflare, Vercel, Render, Google Cloud
-    - *Misc & Tools:* Linux, Nix, Networking, Algorithms, Git, Github, Helix, Vim, Visual Studio Code
+    - *Misc & Tools:* Linux, Devcontainers, Nix, Networking, Algorithms, Git, Github, Helix, Vim, Visual Studio Code
     // - *Other:* Gis is a car iot imes that give him the rig in and the ic wat, Tei sad the mashe lithbe fore she lith Melved.
 
   ]
