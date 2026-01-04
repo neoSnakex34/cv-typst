@@ -43,22 +43,22 @@
 ]
 
 #custom-title("Summary")[
-  Computer Science BSc enrolled (Sapienza) and passionate technology enthusiast, with a background in hardware related task and full-stack web development.
-  Curious and ambitious, I like solving problems and always look for a way to deepen my understanding of software design,
-   system architecture, and theoretical computer science.
+ A technology enthusiast and cs bachelor with a background in hardware related task and full-stack web development.
+  Curious and ambitious, I like solving problems and always look for a way to deepen my knowledge of software design,
+   system architecture, cloud based workflows and theoretical computer science.
   
 
 ]
 
 #custom-title("Hard Skills")[
   #skills()[
-    - *Hardware related:* PC building and configuration, Hardware Troubleshooting, Software Monitoring
-    - *Programming Languages:* Javascript/Typescript[ES6+], Go, Rust, Python, C/C++, Java
-    - *Backend:* Node.js, Express, Docker/Podman, JSON, Insomnia, Curl, Spring Boot
-    - *Frontend:* Astro, React, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap 
+    - *Programming Languages:* Typescript/Javascript[ES6+], C++, Go, Rust, Python, C, Java
+    - *Backend:* Node.js/Deno, Express, Docker/Podman, JSON, Insomnia, Curl, Spring Boot
+    - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap 
     - *Database:* SQL (SQLite, Postgres), NoSQL (Redis)
     - *Cloud:* Cloudflare, Vercel, Render, Google Cloud
-    - *Misc & Tools:* Linux, Devcontainers, Nix, Networking, Algorithms, Git, Github, Helix, Vim, Visual Studio Code
+    - *Hardware related:* PC building and configuration, Hardware Troubleshooting, Software Monitoring
+    - *Misc & Tools:* Linux, Devcontainers, Nix, Networking, Algorithms, Git, Github, Helix Editor, Vim, Visual Studio Code
     // - *Other:* Gis is a car iot imes that give him the rig in and the ic wat, Tei sad the mashe lithbe fore she lith Melved.
 
   ]
@@ -98,12 +98,13 @@
   ]
 
   #project-heading(
-    "studiomessini.com (speech therapy clinic professional website)",)[
+    "studiomessini.com 2.0 (speech therapy clinic professional website)",)[
     #link("https://studiomessini.com")[
       site
     ]
-    - designed reusable custom components in vue with bootstrap
-    - enanched SEO using Nuxt tools
+    - built fast content driven site on top of Astro
+    - custom astro island made on Preact 
+    - enanched SEO per page 
     - deployed on cloudflare with custom domain 
     - monitoring and updating actively 
   ]
@@ -174,4 +175,8 @@
 //   ]
 // ]
 
+#pagebreak()
 
+#align(left)[
+I hereby authorize the processing of my personal data pursuant to the GDPR (EU Regulation 2016/679) for recruitment purposes.
+]
