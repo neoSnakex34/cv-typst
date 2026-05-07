@@ -54,11 +54,12 @@ In my free time I love to express creativity and think outside the box, whether 
 
 #work(
   company: "Freelance",
-  role: "Cloud first Web / Mobile Developer",
+  role: "Cloud oriented Developer",
   dates: dates-util(start-date: "Jan 2025"),
   location: "Italy",
 )
-- I'm working as an occasional freelance developer on my own or collaborating with a family software business.
+- I'm working as an occasional freelance developer on my own or collaborating with a family software business building reliable
+and scalable software solutions that integrate seamlessly with the modern cloud infrastructure and technologies.
 
 == Education
 
@@ -121,7 +122,7 @@ In my free time I love to express creativity and think outside the box, whether 
 - *Curiosity:* Passionate about deep-diving into new topics; dedicated to continuous self-improvement
 - *Troubleshooting:* Always gather and provide the necessary information to properly diagnose and resolve issues
 
-#pagebreak()
+#linebreak()
 
 #align(left)[
   I hereby authorize the processing of my personal data pursuant to the GDPR (EU Regulation 2016/679) for recruitment purposes.
