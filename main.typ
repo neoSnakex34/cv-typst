@@ -37,7 +37,7 @@ When it comes to technology I consider myself a jack of all trades but by no mea
 
 I am finalizing my studies at Sapienza and autonomously studying topics in Data Analysis and Data Science.
 
-In my free time I love to express creativity and think outside the box, whether through hands-on making or purely abstract pursuits. I also enjoy studying math (abstract algebra in particular) and theoretical computer science.
+In my free time I love expressing my creative thinking, whether through hands-on making or purely abstract tasks. I also enjoy studying math (abstract algebra in particular) and theoretical computer science.
 
 == Technical Skills
 
@@ -58,8 +58,7 @@ In my free time I love to express creativity and think outside the box, whether 
   dates: dates-util(start-date: "Jan 2025"),
   location: "Italy",
 )
-- I'm working as an occasional freelance developer on my own or collaborating with a family software business building reliable
-and scalable software solutions that integrate seamlessly with the modern cloud infrastructure and technologies.
+- I'm working as an occasional freelance developer on my own or collaborating with a family software business building reliable and scalable software solutions that integrate seamlessly with the modern cloud infrastructure and technologies.
 
 == Education
 
