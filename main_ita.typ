@@ -33,16 +33,14 @@
 
 == Profilo
 
-Nel campo della tecnologia sono un tuttofare, ma in nessun modo mi definirei superficiale. Amo quello che faccio e miro sempre a un lavoro coerente e raffinato.
-Al momento mi occupo di sviluppo web orientato al cloud come freelance occasionale.
-
-Sto finalizzando la mia laurea in Sapienza e nel mentre sto approfondendo autonomamente lo studio di argomenti quali Analisi dei Dati e Data Science.
-
-Nel mio tempo libero amo esprimere la mia creatività e pensare fuori dagli schemi, sia attraverso attività pratiche che astratte.
-Apprezzo infinitamente lo studio della matematica (in particolare algebra astratta) e dell'informatica teorica.
+Nel campo della tecnologia mi considero un tuttofare, ma in nessun modo superficiale — in realtà amo quello che faccio e miro sempre a un lavoro coerente e raffinato. Possiedo una forte esperienza pratica in Sviluppo Software.
+Al momento lavoro come sviluppatore freelance web e cloud-native.
+Sto finalizzando gli studi a Sapienza e sto approfondendo autonomamente argomenti come Analisi dei Dati e Data Science.
+Nel mio tempo libero amo esprimere la mia creatività, sia attraverso attività pratiche che astratte. Apprezzo lo studio della matematica (in particolare algebra astratta) e dell'informatica teorica.
 
 == Competenze Tecniche
 
+- *AI:* Sviluppo assistito da agenti, Prompt engineering
 - *Linguaggi di Programmazione:* TypeScript/JavaScript (ES6+), C++, Go, Rust, Python, C, Java
 - *Backend:* Node.js/Deno, Express, Fastapi, Spring Boot
 - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
@@ -50,17 +48,18 @@ Apprezzo infinitamente lo studio della matematica (in particolare algebra astrat
 - *Cloud Technologies:* Cloudflare, Render, Ionos, OVH, Tailscale
 - *Containerization:* Docker, Podman
 - *Hardware:* Assemblaggio e configurazione PC, Troubleshooting Hardware, Monitoraggio Software
-- *Strumenti:* Linux, Devcontainers, Nix, Networking, Algoritmi, Git, Helix Editor, Vim, Visual Studio Code
+- *Sistemi Operativi:* Linux, Windows
+- *Strumenti:* Nix, Networking, Algoritmi, Git, Zed Editor, Helix Editor, Vim, Visual Studio Code
 
 == Esperienza
 
 #work(
-  company: "Freelance",
+  company: "Freelance Dev",
   role: "Developer Cloud Oriented",
   dates: dates-util(start-date: "Gen 2025"),
   location: "Italia",
 )
-- Lavoro come sviluppatore freelance occasionale, autonomamente o in collaborazione con un'azienda software familiare, costruendo soluzioni software affidabili e scalabili che si integrano perfettamente con le moderne infrastrutture e tecnologie cloud.
+- Lavoro come sviluppatore freelance, autonomamente o in collaborazione con un'azienda software familiare, costruendo soluzioni software affidabili e scalabili che si integrano perfettamente con le moderne infrastrutture e tecnologie cloud.
 
 == Istruzione
 
@@ -68,7 +67,7 @@ Apprezzo infinitamente lo studio della matematica (in particolare algebra astrat
   institution: "Sapienza Università di Roma",
   location: "Roma, RM",
   degree: "Laurea Triennale — Informatica",
-  dates: dates-util(start-date: "Ott 2021"),
+  dates: dates-util(start-date: "Ott 2021", end-date: "Lug 2026"),
 )
 
 #edu(
@@ -100,9 +99,9 @@ Apprezzo infinitamente lo studio della matematica (in particolare algebra astrat
   tech-used: "Astro | Preact | Cloudflare",
   url: "studiomessini.com",
 )
-- Costruzione di un sito veloce e content-driven tramite Astro
-- architettura sviluppata con Astro island realizzate in Preact
-- ottimizzazione SEO per ogni pagina e revisione agentica
+- Costruito un sito veloce e content-driven con Astro
+- Architettura sviluppata con Astro island realizzate in Preact
+- Ottimizzazione SEO per ogni pagina
 - Distribuito su Cloudflare con dominio personalizzato; monitoraggio e aggiornamenti attivi
 
 #project(
@@ -120,7 +119,7 @@ Apprezzo infinitamente lo studio della matematica (in particolare algebra astrat
 - *Lingue:* Italiano (Madrelingua), Inglese (C1)
 - *Teamwork:* Capace di guidare un team tanto quanto di seguire un leader
 - *Apprendimento Veloce:* Estremamente capace di acquisire nuove competenze e trovare soluzioni autonomamente
-- *Curiosità:* Appassionato di approfondimenti su nuovi argomenti; dedicato ad ottenere il massimo
+- *Curiosità:* Appassionato di approfondimenti su nuovi argomenti; dedicato al miglioramento continuo
 - *Troubleshooting:* Raccolgo o fornisco le informazioni necessarie per diagnosticare e risolvere correttamente i problemi
 
 #linebreak()

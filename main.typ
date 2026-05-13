@@ -33,14 +33,14 @@
 
 == Summary
 
-When it comes to technology I consider myself a jack of all trades but by no means a master of none — in fact I love what I do and strive for perfectly coherent and refined work. At the time of writing I am working as an occasional web/mobile (backend as a service) freelance developer.
-
-I am finalizing my studies at Sapienza and autonomously studying topics in Data Analysis and Data Science.
-
+When it comes to technology I consider myself a jack of all trades but by no means a master of none — in fact I love what I do and strive for perfectly coherent and refined work. I posses a strong proficiency with hands on work experience in Software Development.
+At the time of writing I am working as a web/cloud native freelance developer.
+I am finalizing my studies at Sapienza and autonomously learning topics in Data Analysis and Data Science.
 In my free time I love expressing my creative thinking, whether through hands-on making or purely abstract tasks. I also enjoy studying math (abstract algebra in particular) and theoretical computer science.
 
 == Technical Skills
 
+- *AI*: Agentic assisted development, Prompt engineering
 - *Programming Languages:* TypeScript/JavaScript (ES6+), C++, Go, Rust, Python, C, Java
 - *Backend:* Node.js/Deno, Express, Fastapi, Spring Boot
 - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
@@ -48,17 +48,18 @@ In my free time I love expressing my creative thinking, whether through hands-on
 - *Cloud Technologies:* Cloudflare, Render, Ionos, OVH, Tailscale
 - *Containerization:* Docker, Podman
 - *Hardware:* PC building and configuration, Hardware Troubleshooting, Software Monitoring
-- *Tools:* Linux, Devcontainers, Nix, Networking, Algorithms, Git, Helix Editor, Vim, Visual Studio Code
+- *Operating Systems:* Linux, Windows
+- *Miscellaneous:* Nix, Networking, Algorithms, Git, Zed Editor, Helix Editor, Vim, Visual Studio Code
 
 == Experience
 
 #work(
-  company: "Freelance",
+  company: "Freelance Dev",
   role: "Cloud oriented Developer",
   dates: dates-util(start-date: "Jan 2025"),
   location: "Italy",
 )
-- I'm working as an occasional freelance developer on my own or collaborating with a family software business building reliable and scalable software solutions that integrate seamlessly with the modern cloud infrastructure and technologies.
+- I'm working as a freelance developer on my own or collaborating with a family software business building reliable and scalable software solutions that integrate seamlessly with the modern cloud infrastructure and technologies.
 
 == Education
 
