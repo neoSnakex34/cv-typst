@@ -33,10 +33,7 @@
 
 == Profilo
 
-Nel campo della tecnologia mi considero un tuttofare, ma in nessun modo superficiale — in realtà amo quello che faccio e miro sempre a un lavoro coerente e raffinato. Possiedo una forte esperienza pratica in Sviluppo Software.
-Al momento lavoro come sviluppatore freelance web e cloud-native.
-Sto finalizzando gli studi a Sapienza e sto approfondendo autonomamente argomenti come Analisi dei Dati e Data Science.
-Nel mio tempo libero amo esprimere la mia creatività, sia attraverso attività pratiche che astratte. Apprezzo lo studio della matematica (in particolare algebra astratta) e dell'informatica teorica.
+Sviluppatore backend e cloud con un set versatile di competenze e esperienza pratica nella creazione di soluzioni scalabili. Combino adattabilità tecnica con un focus su sistemi puliti e ben architettati. Attualmente lavoro come sviluppatore cloud-oriented freelance, sto concludendo la laurea in Informatica a Sapienza mentre studio in modo autonomo Data Analysis e Data Science. Nel tempo libero, esploro la risoluzione creativa di problemi attraverso progetti pratici, con una passione per la matematica (in particolare l'algebra astratta) e l'informatica teorica.
 
 == Competenze Tecniche
 
@@ -45,11 +42,10 @@ Nel mio tempo libero amo esprimere la mia creatività, sia attraverso attività 
 - *Backend:* Node.js/Deno, Express, Fastapi, Spring Boot
 - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
 - *Database:* SQL (SQLite, Postgres), NoSQL (Redis)
-- *Cloud Technologies:* Cloudflare, Render, Ionos, OVH, Tailscale
-- *Containerization:* Docker, Podman
+- *Tecnologie Cloud:* Cloudflare, Render, Ionos, OVH, Tailscale
+- *Containerizzazione:* Docker, Podman
 - *Hardware:* Assemblaggio e configurazione PC, Troubleshooting Hardware, Monitoraggio Software
 - *Sistemi Operativi:* Linux, Windows
-- *Strumenti:* Nix, Networking, Algoritmi, Git, Zed Editor, Helix Editor, Vim, Visual Studio Code
 
 == Esperienza
 
@@ -59,7 +55,7 @@ Nel mio tempo libero amo esprimere la mia creatività, sia attraverso attività 
   dates: dates-util(start-date: "Gen 2025"),
   location: "Italia",
 )
-- Lavoro come sviluppatore freelance, autonomamente o in collaborazione con un'azienda software familiare, costruendo soluzioni software affidabili e scalabili che si integrano perfettamente con le moderne infrastrutture e tecnologie cloud.
+- Lavoro autonomamente e in collaborazione con un'azienda software familiare locale per sviluppare soluzioni cloud-native affidabili e scalabili.
 
 == Istruzione
 

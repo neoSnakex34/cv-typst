@@ -33,10 +33,7 @@
 
 == Summary
 
-When it comes to technology I consider myself a jack of all trades but by no means a master of none — in fact I love what I do and strive for perfectly coherent and refined work. I posses a strong proficiency with hands on work experience in Software Development.
-At the time of writing I am working as a web/cloud native freelance developer.
-I am finalizing my studies at Sapienza and autonomously learning topics in Data Analysis and Data Science.
-In my free time I love expressing my creative thinking, whether through hands-on making or purely abstract tasks. I also enjoy studying math (abstract algebra in particular) and theoretical computer science.
+Backend and cloud-focused developer with a versatile skill set and hands-on experience building scalable solutions. I combine technical adaptability with a focus on clean, well-architected systems. Currently freelancing as a cloud-oriented developer, I am finalizing my Computer Science degree at Sapienza while independently studying Data Analysis and Data Science. Beyond work, I channel my creativity into practical projects and abstract problem-solving, with a passion for mathematics (especially abstract algebra) and theoretical computer science.
 
 == Technical Skills
 
@@ -49,8 +46,6 @@ In my free time I love expressing my creative thinking, whether through hands-on
 - *Containerization:* Docker, Podman
 - *Hardware:* PC building and configuration, Hardware Troubleshooting, Software Monitoring
 - *Operating Systems:* Linux, Windows
-- *Miscellaneous:* Nix, Networking, Algorithms, Git, Zed Editor, Helix Editor, Vim, Visual Studio Code
-
 == Experience
 
 #work(
@@ -59,7 +54,7 @@ In my free time I love expressing my creative thinking, whether through hands-on
   dates: dates-util(start-date: "Jan 2025"),
   location: "Italy",
 )
-- I'm working as a freelance developer on my own or collaborating with a family software business building reliable and scalable software solutions that integrate seamlessly with the modern cloud infrastructure and technologies.
+- Work independently and collaborate with a local family software business to develop reliable, scalable cloud-native solutions.
 
 == Education
 
