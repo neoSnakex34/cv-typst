@@ -33,7 +33,7 @@
 
 == Summary
 
-Backend and cloud-focused developer with a versatile skill set and hands-on experience building scalable solutions. I combine technical adaptability with a focus on clean, well-architected systems. Currently freelancing as a cloud-oriented developer, I am finalizing my Computer Science degree at Sapienza while independently studying Data Analysis and Data Science. Beyond work, I channel my creativity into practical projects and abstract problem-solving, with a passion for mathematics (especially abstract algebra) and theoretical computer science.
+Backend and cloud-focused developer with a versatile skillset and hands-on experience building scalable solutions. I combine technical adaptability with a focus on clean, well-architected systems. I am finalizing my Computer Science degree at Sapienza while independently studying topics in Data Science. Beyond work, I channel my creativity into practical projects and abstract problem-solving, with a passion for mathematics (especially abstract algebra) and theoretical computer science.
 
 == Technical Skills
 
@@ -42,19 +42,19 @@ Backend and cloud-focused developer with a versatile skill set and hands-on expe
 - *Backend:* Node.js/Deno, Express, Fastapi, Spring Boot
 - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
 - *Database:* SQL (SQLite, Postgres), NoSQL (Redis)
-- *Cloud Technologies:* Cloudflare, Render, Ionos, OVH, Tailscale
+- *Cloud Technologies:* Cloudflare, Render, Ionos, Hetzner, Tailscale
 - *Containerization:* Docker, Podman
 - *Hardware:* PC building and configuration, Hardware Troubleshooting, Software Monitoring
 - *Operating Systems:* Linux, Windows
-== Experience
+== Work Experience
 
 #work(
   company: "Freelance Dev",
   role: "Cloud oriented Developer",
-  dates: dates-util(start-date: "Jan 2025"),
+  dates: dates-util(start-date: "Jan 2025", end-date: "Jun 2026"),
   location: "Italy",
 )
-- Work independently and collaborate with a local family software business to develop reliable, scalable cloud-native solutions.
+- Worked independently in designing and developing, scalable cloud-native solutions.
 
 == Education
 
@@ -62,7 +62,7 @@ Backend and cloud-focused developer with a versatile skill set and hands-on expe
   institution: "Sapienza Università di Roma",
   location: "Roma, RM",
   degree: "Bachelor of Science — Computer Science",
-  dates: dates-util(start-date: "Oct 2021", end-date: "Jul 2026"),
+  dates: dates-util(start-date: "Oct 2021", end-date: "Sep 2026"),
 )
 
 #edu(

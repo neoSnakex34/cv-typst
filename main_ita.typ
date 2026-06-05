@@ -42,7 +42,7 @@ Sviluppatore backend e cloud con un set versatile di competenze e esperienza pra
 - *Backend:* Node.js/Deno, Express, Fastapi, Spring Boot
 - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
 - *Database:* SQL (SQLite, Postgres), NoSQL (Redis)
-- *Tecnologie Cloud:* Cloudflare, Render, Ionos, OVH, Tailscale
+- *Tecnologie Cloud:* Cloudflare, Render, Ionos, Hetzner, Tailscale
 - *Containerizzazione:* Docker, Podman
 - *Hardware:* Assemblaggio e configurazione PC, Troubleshooting Hardware, Monitoraggio Software
 - *Sistemi Operativi:* Linux, Windows
@@ -52,10 +52,10 @@ Sviluppatore backend e cloud con un set versatile di competenze e esperienza pra
 #work(
   company: "Freelance Dev",
   role: "Developer Cloud Oriented",
-  dates: dates-util(start-date: "Gen 2025"),
+  dates: dates-util(start-date: "Gen 2025", end-date: "Giu 2026"),
   location: "Italia",
 )
-- Lavoro autonomamente e in collaborazione con un'azienda software familiare locale per sviluppare soluzioni cloud-native affidabili e scalabili.
+- Ho lavorato in modo indipendente nella progettazione e sviluppo di soluzioni cloud-native scalabili.
 
 == Istruzione
 
