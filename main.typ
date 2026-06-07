@@ -54,7 +54,7 @@ Backend and cloud-focused developer with a versatile skillset and hands-on exper
   dates: dates-util(start-date: "Jan 2025", end-date: "Jun 2026"),
   location: "Italy",
 )
-- Worked independently in designing and developing, scalable cloud-native solutions.
+- Concluded; Worked independently in designing and developing scalable web and cloud solutions.
 
 == Education
 

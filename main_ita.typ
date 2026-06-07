@@ -55,7 +55,7 @@ Sviluppatore backend e cloud con un set versatile di competenze e esperienza pra
   dates: dates-util(start-date: "Gen 2025", end-date: "Giu 2026"),
   location: "Italia",
 )
-- Ho lavorato in modo indipendente nella progettazione e sviluppo di soluzioni cloud-native scalabili.
+- Concluso; Ho lavorato in modo indipendente nella progettazione e sviluppo di soluzioni web e cloud scalabili.
 
 == Istruzione
 
