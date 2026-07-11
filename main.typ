@@ -22,7 +22,7 @@
   color-enabled: false,
   font: "New Computer Modern",
   paper: "a4",
-  author-font-size: 20pt,
+  author-font-size: 18pt,
   font-size: 10pt,
   lang: "en",
 )
@@ -33,20 +33,28 @@
 
 == Summary
 
-Backend and cloud-focused developer with a versatile skillset and hands-on experience building scalable solutions. I combine technical adaptability with a focus on clean, well-architected systems. I am finalizing my Computer Science degree at Sapienza while independently studying topics in Data Science. Beyond work, I channel my creativity into practical projects and abstract problem-solving, with a passion for mathematics (especially abstract algebra) and theoretical computer science.
+Backend and cloud-focused developer with a versatile skillset and hands-on experience building scalable solutions. I combine technical adaptability with a focus on clean, well-architected systems. Currently working as a Cloud/System architect intern at Accenture. I am finalizing my Computer Science degree at Sapienza while independently studying Data Analysis and Data Science. Beyond work, I channel my creativity into practical projects and abstract problem-solving, with a passion for mathematics (especially abstract algebra) and theoretical computer science.
 
 == Technical Skills
 
-- *AI*: Agentic assisted development, Prompt engineering
-- *Programming Languages:* TypeScript/JavaScript (ES6+), C++, Go, Rust, Python, C, Java
-- *Backend:* Node.js/Deno, Express, Fastapi, Spring Boot
+- *AI:* Agentic assisted development, Prompt engineering
+- *Programming Languages:* TypeScript/JavaScript (ES6+), Go, Java, C++, Rust, Python, C
+- *Backend:* Node.js/Deno, Express, Fastapi, Spring (Boot, Data, Security)
 - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
-- *Database:* SQL (SQLite, Postgres), NoSQL (Redis)
-- *Cloud Technologies:* Cloudflare, Render, Ionos, Hetzner, Tailscale
-- *Containerization:* Docker, Podman
+- *Database:* SQL (Postgres, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
+- *Cloud Technologies:* Hetzner, Tailscale, Ionos, Render, Cloudflare Pages
+- *Virtualization:* Docker, Podman, Orchestration (Docker-compose, Kubernetes)
 - *Hardware:* PC building and configuration, Hardware Troubleshooting, Software Monitoring
-- *Operating Systems:* Linux, Windows
+- *Operating Systems:* Linux (Ubuntu Server, Fedora), Windows
+
 == Work Experience
+
+#work(
+  company: "Accenture (internship)",
+  role: "Cloud Transformation Intern",
+  dates: dates-util(start-date: "Jul 2026", end-date: "Dec 2026"),
+  location: "Rome, Italy",
+)
 
 #work(
   company: "Freelance Dev",
@@ -62,7 +70,7 @@ Backend and cloud-focused developer with a versatile skillset and hands-on exper
   institution: "Sapienza Università di Roma",
   location: "Roma, RM",
   degree: "Bachelor of Science — Computer Science",
-  dates: dates-util(start-date: "Oct 2021", end-date: "Sep 2026"),
+  dates: dates-util(start-date: "Oct 2021", end-date: "Jul 2026"),
 )
 
 #edu(
@@ -73,6 +81,11 @@ Backend and cloud-focused developer with a versatile skillset and hands-on exper
 )
 
 == Projects
+#project(
+  name: "Miglio Logistica - Private delivery logistics management software",
+  tech-used: "Java Spring, Vue.js, Postgres, Podman, Docker-Compose, Tailscale, Cloud",
+  url: "private project",
+)
 
 #project(
   name: "tossdice — statistically fair dice roller webapp",

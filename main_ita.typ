@@ -22,7 +22,7 @@
   color-enabled: false,
   font: "New Computer Modern",
   paper: "a4",
-  author-font-size: 20pt,
+  author-font-size: 18pt,
   font-size: 10pt,
   lang: "it",
 )
@@ -33,21 +33,28 @@
 
 == Profilo
 
-Sviluppatore backend e cloud con un set versatile di competenze e esperienza pratica nella creazione di soluzioni scalabili. Combino adattabilità tecnica con un focus su sistemi puliti e ben architettati. Attualmente lavoro come sviluppatore cloud-oriented freelance, sto concludendo la laurea in Informatica a Sapienza mentre studio in modo autonomo Data Analysis e Data Science. Nel tempo libero, esploro la risoluzione creativa di problemi attraverso progetti pratici, con una passione per la matematica (in particolare l'algebra astratta) e l'informatica teorica.
+Sviluppatore backend e cloud, con un set di competenze versatile e esperienza pratica nella realizzazione di soluzioni scalabili. Combino adattabilità tecnica con un focus su sistemi puliti e ben architettati. Attualmente lavoro come stagista per un ruolo Cloud/System architect presso Accenture. Sto concludendo la laurea in Informatica in Sapienza mentre approfodnisco in autonomia argomenti quali Data Analysis e Data Science. Nel tempo libero, esploro la risoluzione creativa di problemi attraverso progetti pratici, con una passione per la matematica (in particolare l'algebra astratta) e l'informatica teorica.
 
 == Competenze Tecniche
 
 - *AI:* Sviluppo assistito da agenti, Prompt engineering
-- *Linguaggi di Programmazione:* TypeScript/JavaScript (ES6+), C++, Go, Rust, Python, C, Java
-- *Backend:* Node.js/Deno, Express, Fastapi, Spring Boot
+- *Linguaggi di Programmazione:* TypeScript/JavaScript (ES6+), Go, Java, C++, Rust, Python, C
+- *Backend:* Node.js/Deno, Express, Fastapi, Spring (Boot, Data, Security)
 - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
-- *Database:* SQL (SQLite, Postgres), NoSQL (Redis)
-- *Tecnologie Cloud:* Cloudflare, Render, Ionos, Hetzner, Tailscale
-- *Containerizzazione:* Docker, Podman
+- *Database:* SQL (Postgres, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
+- *Tecnologie Cloud:* Hetzner, Tailscale, Ionos, Render, Cloudflare Pages
+- *Virtualizzazione:* Docker, Podman, Orchestrazione (Docker-compose, Kubernetes)
 - *Hardware:* Assemblaggio e configurazione PC, Troubleshooting Hardware, Monitoraggio Software
-- *Sistemi Operativi:* Linux, Windows
+- *Sistemi Operativi:* Linux (Ubuntu Server, Fedora), Windows
 
 == Esperienza
+
+#work(
+  company: "Accenture (internship)",
+  role: "Cloud Transformation Intern",
+  dates: dates-util(start-date: "Lug 2026", end-date: "Dic 2026"),
+  location: "Roma, Italia",
+)
 
 #work(
   company: "Freelance Dev",
@@ -74,6 +81,11 @@ Sviluppatore backend e cloud con un set versatile di competenze e esperienza pra
 )
 
 == Progetti
+#project(
+  name: "Miglio Logistica - Gestionale privato di logistica consegne",
+  tech-used: "Java Spring, Vue.js, Postgres, Podman, Docker-Compose, Tailscale, Cloud",
+  url: "progetto privato",
+)
 
 #project(
   name: "tossdice — generatore di dadi statisticamente accurato",
