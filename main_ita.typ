@@ -41,8 +41,8 @@ Sviluppatore backend e cloud, con un set di competenze versatile e esperienza pr
 - *Linguaggi di Programmazione:* TypeScript/JavaScript (ES6+), Go, Java, C++, Rust, Python, C
 - *Backend:* Node.js/Deno, Express, Fastapi, Spring (Boot, Data, Security)
 - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
-- *Database:* SQL (Postgres, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
-- *Tecnologie Cloud:* Hetzner, Tailscale, Ionos, Render, Cloudflare Pages
+- *Database:* SQL (Postgres, MySQL, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
+- *Tecnologie Cloud:* Azure, Hetzner, Tailscale, Ionos, Render, Cloudflare Pages
 - *Virtualizzazione:* Docker, Podman, Orchestrazione (Docker-compose, Kubernetes)
 - *Hardware:* Assemblaggio e configurazione PC, Troubleshooting Hardware, Monitoraggio Software
 - *Sistemi Operativi:* Linux (Ubuntu Server, Fedora), Windows

@@ -41,8 +41,8 @@ Backend and cloud-focused developer with a versatile skillset and hands-on exper
 - *Programming Languages:* TypeScript/JavaScript (ES6+), Go, Java, C++, Rust, Python, C
 - *Backend:* Node.js/Deno, Express, Fastapi, Spring (Boot, Data, Security)
 - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
-- *Database:* SQL (Postgres, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
-- *Cloud Technologies:* Hetzner, Tailscale, Ionos, Render, Cloudflare Pages
+- *Database:* SQL (Postgres, MySQL, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
+- *Cloud Technologies:* Azure, Hetzner, Tailscale, Ionos, Render, Cloudflare Pages
 - *Virtualization:* Docker, Podman, Orchestration (Docker-compose, Kubernetes)
 - *Hardware:* PC building and configuration, Hardware Troubleshooting, Software Monitoring
 - *Operating Systems:* Linux (Ubuntu Server, Fedora), Windows
