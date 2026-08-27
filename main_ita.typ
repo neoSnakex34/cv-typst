@@ -32,8 +32,7 @@
 ]
 
 == Profilo
-
-Sviluppatore backend e cloud, con un set di competenze versatile e esperienza pratica nella realizzazione di soluzioni scalabili. Combino adattabilità tecnica con un focus su sistemi puliti e ben architettati. Attualmente lavoro come stagista per un ruolo Cloud/System architect presso Accenture. Sto concludendo la laurea in Informatica in Sapienza mentre approfodnisco in autonomia argomenti quali Data Analysis e Data Science. Nel tempo libero, esploro la risoluzione creativa di problemi attraverso progetti pratici, con una passione per la matematica (in particolare l'algebra astratta) e l'informatica teorica.
+Ingegnere del software orientato al cloud con una una visione architetturale e infrastrutturale, con solide basi di Informatica Teoria e Strumenti Matematici. Esperienza nella realizzazione di soluzioni per clienti reali: dalla modellazione dei dati alla gestione del networking e al deployment containerizzato in produzione. Focalizzato sulla scrittura di codice performante e sull'automazione delle infrastrutture, colmo il divario tra astrazione concettuale e implementazione tecnica efficace.
 
 == Competenze Tecniche
 
@@ -43,7 +42,7 @@ Sviluppatore backend e cloud, con un set di competenze versatile e esperienza pr
 - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
 - *Database:* SQL (Postgres, MySQL, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
 - *Tecnologie Cloud:* Azure, Hetzner, Tailscale, Ionos, Render, Cloudflare Pages
-- *Virtualizzazione:* Docker, Podman, Orchestrazione (Docker-compose, Kubernetes)
+- *Virtualizzazione:* Docker, Podman, Orchestrazione (Compose, Kubernetes)
 - *Hardware:* Assemblaggio e configurazione PC, Troubleshooting Hardware, Monitoraggio Software
 - *Sistemi Operativi:* Linux (Ubuntu Server, Fedora), Windows
 
@@ -51,7 +50,7 @@ Sviluppatore backend e cloud, con un set di competenze versatile e esperienza pr
 
 #work(
   company: "Accenture (internship)",
-  role: "Cloud Transformation Intern",
+  role: "Infrastructure Transformation Intern - Cloud Engineering",
   dates: dates-util(start-date: "Lug 2026", end-date: "Dic 2026"),
   location: "Roma, Italia",
 )
@@ -62,7 +61,7 @@ Sviluppatore backend e cloud, con un set di competenze versatile e esperienza pr
   dates: dates-util(start-date: "Gen 2025", end-date: "Giu 2026"),
   location: "Italia",
 )
-- Concluso; Ho lavorato in modo indipendente nella progettazione e sviluppo di soluzioni web e cloud scalabili.
+- Ho lavorato in modo indipendente nella progettazione e sviluppo di soluzioni web e cloud scalabili.
 
 == Istruzione
 

@@ -32,8 +32,7 @@
 ]
 
 == Summary
-
-Backend and cloud-focused developer with a versatile skillset and hands-on experience building scalable solutions. I combine technical adaptability with a focus on clean, well-architected systems. Currently working as a Cloud/System architect intern at Accenture. I am finalizing my Computer Science degree at Sapienza while independently studying Data Analysis and Data Science. Beyond work, I channel my creativity into practical projects and abstract problem-solving, with a passion for mathematics (especially abstract algebra) and theoretical computer science.
+Cloud-oriented Systems & Software Engineer with strong architectural instincts and a solid foundation in abstract computing and mathematics. Experienced in independently delivering production-grade client solutions: from rigorous data modelling and secure private networking to containerised cloud deployments. Focused on high-performance backend development and infrastructure automation, bridging the gap between theoretical models and robust, real-world engineering.
 
 == Technical Skills
 
@@ -43,7 +42,7 @@ Backend and cloud-focused developer with a versatile skillset and hands-on exper
 - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
 - *Database:* SQL (Postgres, MySQL, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
 - *Cloud Technologies:* Azure, Hetzner, Tailscale, Ionos, Render, Cloudflare Pages
-- *Virtualization:* Docker, Podman, Orchestration (Docker-compose, Kubernetes)
+- *Virtualization:* Docker, Podman, Orchestration (Compose, Kubernetes)
 - *Hardware:* PC building and configuration, Hardware Troubleshooting, Software Monitoring
 - *Operating Systems:* Linux (Ubuntu Server, Fedora), Windows
 
@@ -51,18 +50,18 @@ Backend and cloud-focused developer with a versatile skillset and hands-on exper
 
 #work(
   company: "Accenture (internship)",
-  role: "Cloud Transformation Intern",
+    role: "Infrastructure Transformation Intern - Cloud Engineering",
   dates: dates-util(start-date: "Jul 2026", end-date: "Dec 2026"),
   location: "Rome, Italy",
 )
 
 #work(
   company: "Freelance Dev",
-  role: "Cloud oriented Developer",
+  role: "Cloud Oriented Developer",
   dates: dates-util(start-date: "Jan 2025", end-date: "Jun 2026"),
   location: "Italy",
 )
-- Concluded; Worked independently in designing and developing scalable web and cloud solutions.
+- Worked independently in designing and developing scalable web and cloud solutions.
 
 == Education
 
