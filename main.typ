@@ -7,7 +7,8 @@
 #let linkedin = "linkedin.com/in/fjfanti"
 #let github = "github.com/neoSnakex34"
 #let portfolio = "francescojames.dev"
-#let birthdate = "20/09/2000"
+// NOTE: birthdate will only be used on italian one
+// #let birthdate = "20/09/2000"
 
 #show: resume.with(
   author: name,
@@ -27,41 +28,46 @@
   lang: "en",
 )
 
-#align(center)[
-  #text(9pt)[Date of Birth: #birthdate]
-]
+// as on NOTE earlier
+// #align(center)[
+//   #text(9pt)[Date of Birth: #birthdate]
+// ]
 
 == Summary
-Cloud-oriented Systems & Software Engineer with strong architectural instincts and a solid foundation in abstract computing and mathematics. Experienced in independently delivering production-grade client solutions: from rigorous data modelling and secure private networking to containerised cloud deployments. Focused on high-performance backend development and infrastructure automation, bridging the gap between theoretical models and robust, real-world engineering.
-
-== Technical Skills
-
-- *AI:* Agentic assisted development, Prompt engineering
-- *Programming Languages:* TypeScript/JavaScript (ES6+), Go, Java, C++, Rust, Python, C
-- *Backend:* Node.js/Deno, Express, Fastapi, Spring (Boot, Data, Security)
-- *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
-- *Database:* SQL (Postgres, MySQL, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
-- *Cloud Technologies:* Azure, Hetzner, Tailscale, Ionos, Render, Cloudflare Pages
-- *Virtualization:* Docker, Podman, Orchestration (Compose, Kubernetes)
-- *Hardware:* PC building and configuration, Hardware Troubleshooting, Software Monitoring
-- *Operating Systems:* Linux (Ubuntu Server, Fedora), Windows
+Cloud Engineer with a strong architectural and security oriented background and a foundation in abstract computing and mathematics. Experienced in independently delivering production-grade client solutions: from rigorous data modelling and secure private networking to containerised cloud deployments.
+Currently an Intern as a Backup Specialist at Accenture (As part of an Infrastructure Transformation Team).
+Also experienced in modern backend development and cloud native workflows, bridging the gap between theoretical models and robust, real-world engineering.
 
 == Work Experience
 
 #work(
   company: "Accenture (internship)",
-    role: "Infrastructure Transformation Intern - Cloud Engineering",
+  role: "Infrastructure Transformation Intern - Cloud Engineering",
   dates: dates-util(start-date: "Jul 2026", end-date: "Dec 2026"),
   location: "Rome, Italy",
 )
 
 #work(
   company: "Freelance Dev",
-  role: "Cloud Oriented Developer",
+  role: "Cloud Oriented Web Developer",
   dates: dates-util(start-date: "Jan 2025", end-date: "Jun 2026"),
   location: "Italy",
 )
-- Worked independently in designing and developing scalable web and cloud solutions.
+- Worked independently in designing and developing scalable web solutions deployed through modern cloud technologies.
+
+== Technical Skills
+
+- *AI:* Agentic assisted development, Prompt engineering
+- *Cloud Technologies:* Azure, AWS, Hetzner, Tailscale, Ionos, Render, Cloudflare Pages
+- *Backup, DR:* Commvault
+- *Programming Languages:* TypeScript/JavaScript (ES6+), Go, Java, C++, Rust, Python, C
+- *Backend:* Node.js/Deno, Express, Fastapi, Spring (Boot, Data, Security)
+- *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
+- *Database:* SQL (Postgres, MySQL, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
+- *Virtualization:* Docker, Podman, Orchestration (Compose, Kubernetes)
+- *Operating Systems:* Linux (Ubuntu Server, Fedora), Windows
+- *Hardware:* PC building and configuration, Hardware Troubleshooting, Software Monitoring
+
 
 == Education
 
@@ -69,7 +75,7 @@ Cloud-oriented Systems & Software Engineer with strong architectural instincts a
   institution: "Sapienza Università di Roma",
   location: "Roma, RM",
   degree: "Bachelor of Science — Computer Science",
-  dates: dates-util(start-date: "Oct 2021", end-date: "Jul 2026"),
+  dates: dates-util(start-date: "Oct 2021", end-date: "2027"),
 )
 
 #edu(
@@ -80,21 +86,22 @@ Cloud-oriented Systems & Software Engineer with strong architectural instincts a
 )
 
 == Projects
-#project(
-  name: "Miglio Logistica - Private delivery logistics management software",
-  tech-used: "Java Spring, Vue.js, Postgres, Podman, Docker-Compose, Tailscale, Cloud",
-  url: "private project",
+#two-by-two-layout(
+  top-left: strong("Miglio Logistica - Private delivery logistics management software"),
+  bottom-left: "Java Spring, Vue.js, Postgres, Podman, Docker-Compose, Tailscale, Cloud",
+  bottom-right: emph("Closed Source"),
 )
 
 #project(
+
   name: "tossdice — statistically fair dice roller webapp",
   tech-used: "TypeScript | Cloudflare Pages",
   url: "tossdice.pages.dev",
 )
 
 #project(
-  name: "SessionBee — PoC of an IoT e-device session handler service",
-  tech-used: "Node.js | Docker",
+  name: "SessionBee — PoC of a smart-device session handler service",
+  tech-used: "Node.js (Express) | Docker",
   url: "github.com/neoSnakex34/sessionbee",
 )
 - Preliminary analysis on real-life use-case scenario

@@ -32,19 +32,7 @@
 ]
 
 == Profilo
-Ingegnere del software orientato al cloud con una una visione architetturale e infrastrutturale, con solide basi di Informatica Teoria e Strumenti Matematici. Esperienza nella realizzazione di soluzioni per clienti reali: dalla modellazione dei dati alla gestione del networking e al deployment containerizzato in produzione. Focalizzato sulla scrittura di codice performante e sull'automazione delle infrastrutture, colmo il divario tra astrazione concettuale e implementazione tecnica efficace.
-
-== Competenze Tecniche
-
-- *AI:* Sviluppo assistito da agenti, Prompt engineering
-- *Linguaggi di Programmazione:* TypeScript/JavaScript (ES6+), Go, Java, C++, Rust, Python, C
-- *Backend:* Node.js/Deno, Express, Fastapi, Spring (Boot, Data, Security)
-- *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
-- *Database:* SQL (Postgres, MySQL, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
-- *Tecnologie Cloud:* Azure, Hetzner, Tailscale, Ionos, Render, Cloudflare Pages
-- *Virtualizzazione:* Docker, Podman, Orchestrazione (Compose, Kubernetes)
-- *Hardware:* Assemblaggio e configurazione PC, Troubleshooting Hardware, Monitoraggio Software
-- *Sistemi Operativi:* Linux (Ubuntu Server, Fedora), Windows
+Cloud Engineer con una forte visione architetturale e orientata alla sicurezza, e solide basi di Informatica Teorica e Strumenti Matematici. Esperienza nella consegna autonoma di soluzioni production-grade per clienti reali: dalla modellazione rigorosa dei dati al networking privato sicuro, fino al deployment containerizzato in cloud. Attualmente tirocinante come Backup Specialist in Accenture (all'interno di un Team di Infrastructure Transformation). Esperienza anche nello sviluppo backend moderno e nei workflow cloud native, colmando il divario tra modelli teorici e ingegneria reale e robusta.
 
 == Esperienza
 
@@ -57,11 +45,24 @@ Ingegnere del software orientato al cloud con una una visione architetturale e i
 
 #work(
   company: "Freelance Dev",
-  role: "Developer Cloud Oriented",
+  role: "Sviluppatore Web orientato al Cloud",
   dates: dates-util(start-date: "Gen 2025", end-date: "Giu 2026"),
   location: "Italia",
 )
-- Ho lavorato in modo indipendente nella progettazione e sviluppo di soluzioni web e cloud scalabili.
+- Progettazione e sviluppo in autonomia di soluzioni web scalabili, distribuite tramite tecnologie cloud moderne.
+
+== Competenze Tecniche
+
+- *AI:* Sviluppo assistito da agenti, Prompt engineering
+- *Tecnologie Cloud:* Azure, AWS, Hetzner, Tailscale, Ionos, Render, Cloudflare Pages
+- *Backup, DR:* Commvault
+- *Linguaggi di Programmazione:* TypeScript/JavaScript (ES6+), Go, Java, C++, Rust, Python, C
+- *Backend:* Node.js/Deno, Express, Fastapi, Spring (Boot, Data, Security)
+- *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
+- *Database:* SQL (Postgres, MySQL, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
+- *Virtualizzazione:* Docker, Podman, Orchestrazione (Compose, Kubernetes)
+- *Sistemi Operativi:* Linux (Ubuntu Server, Fedora), Windows
+- *Hardware:* Assemblaggio e configurazione PC, Troubleshooting Hardware, Monitoraggio Software
 
 == Istruzione
 
@@ -69,7 +70,7 @@ Ingegnere del software orientato al cloud con una una visione architetturale e i
   institution: "Sapienza Università di Roma",
   location: "Roma, RM",
   degree: "Laurea Triennale — Informatica",
-  dates: dates-util(start-date: "Ott 2021", end-date: "Lug 2026"),
+  dates: dates-util(start-date: "Ott 2021", end-date: "2027"),
 )
 
 #edu(
@@ -80,10 +81,10 @@ Ingegnere del software orientato al cloud con una una visione architetturale e i
 )
 
 == Progetti
-#project(
-  name: "Miglio Logistica - Gestionale privato di logistica consegne",
-  tech-used: "Java Spring, Vue.js, Postgres, Podman, Docker-Compose, Tailscale, Cloud",
-  url: "progetto privato",
+#two-by-two-layout(
+  top-left: strong("Miglio Logistica - Gestionale privato di logistica consegne"),
+  bottom-left: "Java Spring, Vue.js, Postgres, Podman, Docker-Compose, Tailscale, Cloud",
+  bottom-right: emph("Closed Source"),
 )
 
 #project(
@@ -93,8 +94,8 @@ Ingegnere del software orientato al cloud con una una visione architetturale e i
 )
 
 #project(
-  name: "SessionBee — PoC di un servizio di gestione sessioni per IoT",
-  tech-used: "Node.js | Docker",
+  name: "SessionBee — PoC di un servizio di gestione sessioni per smart device",
+  tech-used: "Node.js (Express) | Docker",
   url: "github.com/neoSnakex34/sessionbee",
 )
 - Analisi preliminare su scenario di caso d'uso reale
