@@ -32,7 +32,7 @@
 ]
 
 == Profilo
-Cloud Engineer con una forte visione architetturale e orientata alla sicurezza, e solide basi di Informatica Teorica e Strumenti Matematici. Esperienza nella consegna autonoma di soluzioni production-grade per clienti reali: dalla modellazione rigorosa dei dati al networking privato sicuro, fino al deployment containerizzato in cloud. Attualmente tirocinante come Backup Specialist in Accenture (all'interno di un Team di Infrastructure Transformation). Esperienza anche nello sviluppo backend moderno e nei workflow cloud native, colmando il divario tra modelli teorici e ingegneria reale e robusta.
+Cloud Engineer con una forte visione architetturale e orientata alla sicurezza, oltre a solide basi di Informatica Teorica e Strumenti Matematici. Esperienza nella consegna autonoma di soluzioni production-grade per clienti reali: dalla modellazione rigorosa dei dati al networking privato sicuro, fino al deployment containerizzato in cloud. Attualmente tirocinante come Backup Specialist in Accenture (all'interno di un Team di Infrastructure Transformation). Esperienza anche nello sviluppo backend moderno e nei workflow cloud native, colmando il divario tra modelli teorici e ingegneria reale e robusta.
 
 == Esperienza
 
