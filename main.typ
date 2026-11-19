@@ -46,6 +46,10 @@ Also experienced in modern backend development and cloud native workflows, bridg
   dates: dates-util(start-date: "Jul 2026", end-date: "Dec 2026"),
   location: "Rome, Italy",
 )
+- Worked alongside the Delivery (product) team on backup and infrastructure in the Aerospace & Naval sector
+- Onboarded onto the backup team, covering Disaster Recovery and multi-site backup architecture
+- Used Commvault day-to-day to monitor and protect machines on hybrid cloud
+- Handled backups during hyperscaler migration
 
 #work(
   company: "Freelance Dev",
@@ -53,7 +57,11 @@ Also experienced in modern backend development and cloud native workflows, bridg
   dates: dates-util(start-date: "Jan 2025", end-date: "Jun 2026"),
   location: "Italy",
 )
-- Worked independently in designing and developing scalable web solutions deployed through modern cloud technologies.
+- Analysed customer needs upfront to define the right solution
+- Carried out cost analysis to keep projects on budget
+- Designed data architectures and databases as part of software engineering
+- Chose fit-for-purpose technologies: Deno for microservices, Spring for main applications
+- Deployed to the cloud in a secure environment over VPN
 
 == Technical Skills
 
@@ -70,6 +78,13 @@ Also experienced in modern backend development and cloud native workflows, bridg
 
 
 == Education
+
+#edu(
+  institution: "Accenture",
+  location: "Remote",
+  degree: "Infrastructure Engineering Academy",
+  dates: dates-util(start-date: "Jul 2026", end-date: "Aug 2026"),
+)
 
 #edu(
   institution: "Sapienza Università di Roma",

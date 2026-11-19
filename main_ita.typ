@@ -42,6 +42,10 @@ Cloud Engineer con una forte visione architetturale e orientata alla sicurezza, 
   dates: dates-util(start-date: "Lug 2026", end-date: "Dic 2026"),
   location: "Roma, Italia",
 )
+- Affiancamento al team Delivery (prodotto) su backup e infrastruttura in ambito Aerospace & Naval
+- Onboarding nel team di backup su temi di Disaster Recovery e architettura di backup multi-site
+- Utilizzo quotidiano di Commvault nel monitoraggio e protezione delle macchine su Hybrid Cloud
+- Gestione dei backup durante la migrazione da hyperscaler
 
 #work(
   company: "Freelance Dev",
@@ -49,7 +53,11 @@ Cloud Engineer con una forte visione architetturale e orientata alla sicurezza, 
   dates: dates-util(start-date: "Gen 2025", end-date: "Giu 2026"),
   location: "Italia",
 )
-- Progettazione e sviluppo in autonomia di soluzioni web scalabili, distribuite tramite tecnologie cloud moderne.
+- Analisi preliminare delle esigenze del cliente per definire la soluzione più adatta
+- Analisi dei costi per mantenere il progetto entro budget
+- Progettazione dell'architettura dei dati e dei database nell'ambito dell'ingegneria del software
+- Scelta di tecnologie adeguate allo scopo: Deno per i microservizi, Spring per le applicazioni principali
+- Deployment su cloud in ambiente sicuro tramite VPN
 
 == Competenze Tecniche
 
@@ -65,6 +73,13 @@ Cloud Engineer con una forte visione architetturale e orientata alla sicurezza, 
 - *Hardware:* Assemblaggio e configurazione PC, Troubleshooting Hardware, Monitoraggio Software
 
 == Istruzione
+
+#edu(
+  institution: "Accenture",
+  location: "Da remoto",
+  degree: "Infrastructure Engineering Academy",
+  dates: dates-util(start-date: "Jul 2026", end-date: "Aug 2026"),
+)
 
 #edu(
   institution: "Sapienza Università di Roma",
