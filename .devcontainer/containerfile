@@ -1,0 +1,6 @@
+FROM alpine:latest
+RUN apk add --no-cache typst bash \
+ && adduser -D -u 1000 dev
+USER dev
+ENTRYPOINT ["typst"]
+CMD ["--version"]

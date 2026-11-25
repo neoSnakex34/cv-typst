@@ -1,0 +1,4 @@
+{
+  "build": { "dockerfile": "./containerfile" },
+  "remoteUser": "dev"
+}
