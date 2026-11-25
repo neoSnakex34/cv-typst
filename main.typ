@@ -107,7 +107,7 @@ Also experienced in modern backend development and cloud native workflows, bridg
   tech-used: "Tailscale, Podman, Quadlets, Debian, Networking and Cybersec",
   url: "https://lnkd.in/p/dRNaYS3g",
 )
-- Two node homelab setup featuring secure networking, monitoring, container management and backup solution.
+- Two node homelab setup featuring secure networking, monitoring, container management and backup solution
 - Former node aimed at streaming my music collection
 - The latter designed as a offsite backup node for the colletion itself
 - Home assistant for home automation and monitoring
