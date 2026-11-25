@@ -48,6 +48,7 @@ Also experienced in modern backend development and cloud native workflows, bridg
 )
 - Worked alongside the Delivery (product) team on backup and infrastructure in the Aerospace & Naval sector
 - Onboarded onto the backup team, covering Disaster Recovery and multi-site backup architecture
+- Assisted the planning and starting of an important Cloud-to-Cloud Migration
 - Used Commvault day-to-day to monitor and protect machines on hybrid cloud
 - Handled backups during hyperscaler migration
 
@@ -73,7 +74,7 @@ Also experienced in modern backend development and cloud native workflows, bridg
 - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
 - *Database:* SQL (Postgres, MySQL, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
 - *Virtualization:* Docker, Podman, Orchestration (Compose, Kubernetes)
-- *Operating Systems:* Linux (Ubuntu Server, Fedora), Windows
+- *Operating Systems:* Linux (Ubuntu Server, RHEL family), Windows Server
 - *Hardware:* PC building and configuration, Hardware Troubleshooting, Software Monitoring
 
 
@@ -101,18 +102,28 @@ Also experienced in modern backend development and cloud native workflows, bridg
 )
 
 == Projects
+#project(
+  name: "Distributed Homelab",
+  tech-used: "Tailscale, Podman, Quadlets, Debian, Networking and Cybersec",
+  url: "https://lnkd.in/p/dRNaYS3g",
+)
+- Two node homelab setup featuring secure networking, monitoring, container management and backup solution.
+- Former node aimed at streaming my music collection
+- The latter designed as a offsite backup node for the colletion itself
+- Home assistant for home automation and monitoring
+- Hardened system with strong firewall, least privilege principles and access control
+
 #two-by-two-layout(
   top-left: strong("Miglio Logistica - Private delivery logistics management software"),
   bottom-left: "Java Spring, Vue.js, Postgres, Podman, Docker-Compose, Tailscale, Cloud",
   bottom-right: emph("Closed Source"),
 )
-
-#project(
-
-  name: "tossdice — statistically fair dice roller webapp",
-  tech-used: "TypeScript | Cloudflare Pages",
-  url: "tossdice.pages.dev",
-)
+- Database architecture design and subsequent Flyway migration implementation
+- REST API and Business Backend Logic in Java Spring
+- Vue.js and DaisyUI reactive frontend
+- Agentic Assisted reviews and implementations
+- Deployment on Private Cloud (Hetzner)
+- 6+ months of active use and monitoring
 
 #project(
   name: "SessionBee — PoC of a smart-device session handler service",

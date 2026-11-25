@@ -32,7 +32,9 @@
 ]
 
 == Profilo
-Cloud Engineer con una forte visione architetturale e orientata alla sicurezza, oltre a solide basi di Informatica Teorica e Strumenti Matematici. Esperienza nella consegna autonoma di soluzioni production-grade per clienti reali: dalla modellazione rigorosa dei dati al networking privato sicuro, fino al deployment containerizzato in cloud. Attualmente tirocinante come Backup Specialist in Accenture (all'interno di un Team di Infrastructure Transformation). Esperienza anche nello sviluppo backend moderno e nei workflow cloud native, colmando il divario tra modelli teorici e ingegneria reale e robusta.
+Cloud Engineer con una forte visione architetturale e orientata alla sicurezza, oltre a solide basi di Informatica Teorica e Strumenti Matematici. Esperienza nella consegna autonoma di soluzioni production-grade per clienti reali: dalla modellazione rigorosa dei dati al networking privato sicuro, fino al deployment containerizzato in cloud.
+Attualmente tirocinante come Backup Specialist in Accenture (all'interno di un Team di Infrastructure Transformation).
+Esperienza anche nello sviluppo backend moderno e nei workflow cloud native, colmando il divario tra modelli teorici e ingegneria reale e robusta.
 
 == Esperienza
 
@@ -44,6 +46,7 @@ Cloud Engineer con una forte visione architetturale e orientata alla sicurezza, 
 )
 - Affiancamento al team Delivery (prodotto) su backup e infrastruttura in ambito Aerospace & Naval
 - Onboarding nel team di backup su temi di Disaster Recovery e architettura di backup multi-site
+- Assistenza alla pianificazione e all'avvio di un'importante migrazione Cloud-to-Cloud
 - Utilizzo quotidiano di Commvault nel monitoraggio e protezione delle macchine su Hybrid Cloud
 - Gestione dei backup durante la migrazione da hyperscaler
 
@@ -69,7 +72,7 @@ Cloud Engineer con una forte visione architetturale e orientata alla sicurezza, 
 - *Frontend:* Astro, React/Preact, Vue.js, Nuxt.js, HTML, CSS, TailwindCSS, Bootstrap
 - *Database:* SQL (Postgres, MySQL, SQLite), NoSQL (Redis), DBeaver (SQL Editor/Visualizer)
 - *Virtualizzazione:* Docker, Podman, Orchestrazione (Compose, Kubernetes)
-- *Sistemi Operativi:* Linux (Ubuntu Server, Fedora), Windows
+- *Sistemi Operativi:* Linux (Ubuntu Server, famiglia RHEL), Windows Server
 - *Hardware:* Assemblaggio e configurazione PC, Troubleshooting Hardware, Monitoraggio Software
 
 == Istruzione
@@ -96,17 +99,28 @@ Cloud Engineer con una forte visione architetturale e orientata alla sicurezza, 
 )
 
 == Progetti
+#project(
+  name: "Homelab Distribuito",
+  tech-used: "Tailscale, Podman, Quadlets, Debian, Networking e Cybersec",
+  url: "https://lnkd.in/p/dRNaYS3g",
+)
+- Setup homelab composto di due nodi con cura al networking sicuro, monitoraggio, gestione dei container e soluzione di backup
+- Nodo principale dedicato allo streaming della mia collezione musicale
+- Secondario progettato come nodo di backup offsite per la collezione stessa
+- Home Assistant per automazione domestica e monitoraggio
+- Sicurezza estesa da regole firewall robuste, principio del least privilege e controllo degli accessi
+
 #two-by-two-layout(
   top-left: strong("Miglio Logistica - Gestionale privato di logistica consegne"),
   bottom-left: "Java Spring, Vue.js, Postgres, Podman, Docker-Compose, Tailscale, Cloud",
   bottom-right: emph("Closed Source"),
 )
-
-#project(
-  name: "tossdice — generatore di dadi statisticamente accurato",
-  tech-used: "TypeScript | Cloudflare Pages",
-  url: "tossdice.pages.dev",
-)
+- Progettazione dell'architettura del database e successiva implementazione delle migrazioni Flyway
+- REST API e logica di business del backend in Java Spring
+- Frontend reactive in Vue.js e DaisyUI
+- Review e implementazioni assistite da agenti
+- Deployment su Private Cloud (Hetzner)
+- Oltre 6 mesi di utilizzo attivo e monitoraggio
 
 #project(
   name: "SessionBee — PoC di un servizio di gestione sessioni per smart device",
