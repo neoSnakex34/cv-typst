@@ -18,6 +18,11 @@ jobs:
     # all run inside the Alpine container (~3 MB image pull, few seconds).
     runs-on: ubuntu-latest
     container: alpine:3.20
+    # mapped into env so the step-level `if` below can check presence:
+    # the secrets context is not available in if-expressions
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
       - name: Check config
         env:
@@ -72,10 +77,7 @@ jobs:
       # CLOUDFLARE_ACCOUNT_ID are added to the repo secrets, so the S3
       # upload path keeps working standalone.
       - name: Deploy to Cloudflare Pages
-        if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
         run: |
           mkdir -p pages/cv
           cp main.pdf pages/cv/cv.pdf
