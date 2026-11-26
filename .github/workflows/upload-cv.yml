@@ -18,11 +18,6 @@ jobs:
     # all run inside the Alpine container (~3 MB image pull, few seconds).
     runs-on: ubuntu-latest
     container: alpine:3.20
-    # mapped into env so the step-level `if` below can check presence:
-    # the secrets context is not available in if-expressions
-    env:
-      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
       - name: Check config
         env:
@@ -33,10 +28,9 @@ jobs:
           echo "region=${{ vars.SCW_REGION }}"
           [ -n "$AK" ] && echo "access key presente" || echo "access key VUOTA"
           [ -n "$SK" ] && echo "secret key presente" || echo "secret key VUOTA"
-      # everything via apk. nodejs is needed so the actions below
-      # (checkout, cache) can run inside the container; yarn installs
-      # wrangler for the Pages deploy step.
-      - run: apk add --no-cache nodejs yarn aws-cli
+      # everything via apk. nodejs is only needed so the actions below
+      # (checkout, cache) can run inside the container.
+      - run: apk add --no-cache nodejs aws-cli
       - uses: actions/checkout@v4
 
       # typst binary is cached: after the first run the apk install of
@@ -69,28 +63,3 @@ jobs:
             --endpoint-url https://s3.${{ vars.SCW_REGION }}.scw.cloud \
             --content-type application/pdf --content-disposition inline \
             --cache-control "public, max-age=86400"
-
-      # Cloudflare Pages serves the CVs publicly at cv.francescojames.dev
-      # (the site redirects /cv and /cv-ita there). Scaleway stays the
-      # storage of record, but the bucket itself is fully private: only
-      # the CI writes to it and nothing reads it at runtime.
-      # This step is skipped until CLOUDFLARE_API_TOKEN /
-      # CLOUDFLARE_ACCOUNT_ID are added to the repo secrets, so the S3
-      # upload path keeps working standalone.
-      - name: Deploy to Cloudflare Pages
-        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
-        run: |
-          mkdir -p pages/cv
-          cp main.pdf pages/cv/cv.pdf
-          cp main_ita.pdf pages/cv/cv-ita.pdf
-
-          # wrangler 3: the latest major needs node >=22, but the
-          # alpine:3.20 container ships node 20
-          yarn global add wrangler@3
-          export PATH="$(yarn global bin):$PATH"
-          # create the project only if it does not exist yet
-          wrangler pages project list | grep -q francescojames-cv || \
-            wrangler pages project create francescojames-cv --production-branch=main
-          wrangler pages deploy pages \
-            --project-name=francescojames-cv \
-            --branch=main --commit-dirty=true

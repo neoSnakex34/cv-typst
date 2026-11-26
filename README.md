@@ -30,6 +30,5 @@ compiles them and uploads them to the Scaleway bucket under `cv/`.
 - EN: https://cv.francescojames.dev/cv/cv.pdf
 - IT: https://cv.francescojames.dev/cv/cv-ita.pdf
 
-Served by the `francescojames-cv` Cloudflare Pages project. The CI
-uploads the PDFs to Scaleway and deploys the same files to Pages; the
-bucket is private.
+Served through the bunny.net CDN (`fj-cv` pull zone) in front of the
+private Scaleway bucket.
