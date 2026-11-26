@@ -25,15 +25,11 @@ make clean      # removes the PDFs
 PDFs are gitignored build artifacts. On every push, a GitHub Action
 compiles them and uploads them to the Scaleway bucket under `cv/`.
 
-## Published CVs (read-only, served inline)
+## Published CVs
 
 - EN: https://cv.francescojames.dev/cv/cv.pdf
 - IT: https://cv.francescojames.dev/cv/cv-ita.pdf
 
-The PDFs are deployed to a dedicated Cloudflare Pages project
-(`francescojames-cv`, custom domain `cv.francescojames.dev`) right after
-the S3 upload. The Scaleway bucket is fully private: only the CI writes
-to it, and nothing reads it at runtime — the public URLs above are served
-by Cloudflare's edge.
-
-Use these links in GitHub releases and anywhere the CV is shared.
+Served by the `francescojames-cv` Cloudflare Pages project. The CI
+uploads the PDFs to Scaleway and deploys the same files to Pages; the
+bucket is private.
