@@ -81,7 +81,7 @@ Esperienza anche nello sviluppo backend moderno e nei workflow cloud native, col
   institution: "Accenture",
   location: "Da remoto",
   degree: "Infrastructure Engineering Academy",
-  dates: dates-util(start-date: "Jul 2026", end-date: "Aug 2026"),
+  dates: dates-util(start-date: "Lug 2026", end-date: "Ago 2026"),
 )
 
 #edu(
