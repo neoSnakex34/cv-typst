@@ -9,12 +9,33 @@ permissions: {}
 
 jobs:
   upload:
+    # runs-on only names the host VM GitHub provides anyway; the job steps
+    # all run inside the Alpine container (~3 MB image pull, few seconds).
     runs-on: ubuntu-latest
     container: alpine:3.20
     steps:
-      - run: apk add --no-cache nodejs typst aws-cli
+      # everything via apk. nodejs is only needed so the actions below
+      # (checkout, cache) can run inside the container.
+      - run: apk add --no-cache nodejs aws-cli
       - uses: actions/checkout@v4
+
+      # typst binary is cached: after the first run the apk install of
+      # typst is skipped entirely.
+      - uses: actions/cache@v4
+        id: typst
+        with:
+          path: /usr/bin/typst
+          key: typst-apk-alpine3.20
+          restore-keys: typst-apk-
+
+      - name: Install typst via apk (cached)
+        if: steps.typst.outputs.cache-hit != 'true'
+        run: apk add --no-cache typst
+
       - run: ./compile.sh
+
+      # aws s3 cp overwrites the existing key silently (versioning off):
+      # every run replaces the old CV.
       - name: Upload to S3
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.SCW_ACCESS_KEY }}
