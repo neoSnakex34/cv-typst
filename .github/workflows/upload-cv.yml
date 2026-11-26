@@ -33,10 +33,10 @@ jobs:
           echo "region=${{ vars.SCW_REGION }}"
           [ -n "$AK" ] && echo "access key presente" || echo "access key VUOTA"
           [ -n "$SK" ] && echo "secret key presente" || echo "secret key VUOTA"
-      # everything via apk. nodejs+npm are needed so the actions below
-      # (checkout, cache) can run inside the container, and so the Pages
-      # deploy step can install wrangler.
-      - run: apk add --no-cache nodejs npm aws-cli
+      # everything via apk. nodejs is needed so the actions below
+      # (checkout, cache) can run inside the container; yarn installs
+      # wrangler for the Pages deploy step.
+      - run: apk add --no-cache nodejs yarn aws-cli
       - uses: actions/checkout@v4
 
       # typst binary is cached: after the first run the apk install of
@@ -84,7 +84,8 @@ jobs:
           cp main.pdf pages/cv/cv.pdf
           cp main_ita.pdf pages/cv/cv-ita.pdf
 
-          npm install -g wrangler@4
+          yarn global add wrangler@4
+          export PATH="$(yarn global bin):$PATH"
           # create the project only if it does not exist yet
           wrangler pages project list | grep -q francescojames-cv || \
             wrangler pages project create francescojames-cv --production-branch=main
