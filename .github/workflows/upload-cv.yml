@@ -63,3 +63,31 @@ jobs:
             --endpoint-url https://s3.${{ vars.SCW_REGION }}.scw.cloud \
             --content-type application/pdf --content-disposition inline \
             --cache-control "public, max-age=86400"
+
+      # Cloudflare Pages serves the CVs publicly at cv.francescojames.dev
+      # (the site redirects /cv and /cv-ita there). Scaleway stays the
+      # storage of record, but the bucket itself is fully private: only
+      # the CI writes to it and nothing reads it at runtime.
+      # Steps are skipped until CLOUDFLARE_API_TOKEN is added to the repo
+      # secrets, so the S3 upload path keeps working standalone.
+      - name: Stage Pages deploy directory
+        if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+        run: |
+          mkdir -p pages/cv
+          cp main.pdf pages/cv/cv.pdf
+          cp main_ita.pdf pages/cv/cv-ita.pdf
+
+      - name: Deploy to Cloudflare Pages
+        if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          npm install -g wrangler
+          # create the project on the first run; ignore the error if it
+          # already exists
+          wrangler pages project create francescojames-cv \
+            --production-branch main || true
+          wrangler pages deploy pages \
+            --project-name francescojames-cv \
+            --branch main --commit-dirty true

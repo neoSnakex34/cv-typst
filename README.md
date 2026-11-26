@@ -27,7 +27,13 @@ compiles them and uploads them to the Scaleway bucket under `cv/`.
 
 ## Published CVs (read-only, served inline)
 
-- EN: https://site-astro-cv.s3.fr-par.scw.cloud/cv/cv.pdf
-- IT: https://site-astro-cv.s3.fr-par.scw.cloud/cv/cv-ita.pdf
+- EN: https://cv.francescojames.dev/cv/cv.pdf
+- IT: https://cv.francescojames.dev/cv/cv-ita.pdf
+
+The PDFs are deployed to a dedicated Cloudflare Pages project
+(`francescojames-cv`, custom domain `cv.francescojames.dev`) right after
+the S3 upload. The Scaleway bucket is fully private: only the CI writes
+to it, and nothing reads it at runtime — the public URLs above are served
+by Cloudflare's edge.
 
 Use these links in GitHub releases and anywhere the CV is shared.

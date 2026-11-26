@@ -1,0 +1,4 @@
+/cv/*
+  Content-Type: application/pdf
+  Content-Disposition: inline
+  Cache-Control: public, max-age=86400
