@@ -84,7 +84,9 @@ jobs:
           cp main.pdf pages/cv/cv.pdf
           cp main_ita.pdf pages/cv/cv-ita.pdf
 
-          yarn global add wrangler@4
+          # wrangler 3: the latest major needs node >=22, but the
+          # alpine:3.20 container ships node 20
+          yarn global add wrangler@3
           export PATH="$(yarn global bin):$PATH"
           # create the project only if it does not exist yet
           wrangler pages project list | grep -q francescojames-cv || \
