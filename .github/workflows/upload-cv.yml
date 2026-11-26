@@ -33,9 +33,10 @@ jobs:
           echo "region=${{ vars.SCW_REGION }}"
           [ -n "$AK" ] && echo "access key presente" || echo "access key VUOTA"
           [ -n "$SK" ] && echo "secret key presente" || echo "secret key VUOTA"
-      # everything via apk. nodejs is only needed so the actions below
-      # (checkout, cache) can run inside the container.
-      - run: apk add --no-cache nodejs aws-cli
+      # everything via apk. nodejs+npm are needed so the actions below
+      # (checkout, cache) can run inside the container, and so the Pages
+      # deploy step can install wrangler.
+      - run: apk add --no-cache nodejs npm aws-cli
       - uses: actions/checkout@v4
 
       # typst binary is cached: after the first run the apk install of
