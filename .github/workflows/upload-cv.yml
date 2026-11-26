@@ -1,0 +1,28 @@
+name: Compile CV and upload to S3
+
+on:
+  push:
+    branches: [master, main]
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    container: alpine:3.20
+    steps:
+      - run: apk add --no-cache nodejs typst aws-cli
+      - uses: actions/checkout@v4
+      - run: ./compile.sh
+      - name: Upload to S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.SCW_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SCW_SECRET_KEY }}
+        run: |
+          aws s3 cp main.pdf s3://${{ vars.SCW_BUCKET }}/cv/cv.pdf \
+            --endpoint-url https://s3.${{ vars.SCW_REGION }}.scw.cloud \
+            --content-type application/pdf --content-disposition inline
+          aws s3 cp main_ita.pdf s3://${{ vars.SCW_BUCKET }}/cv/cv-ita.pdf \
+            --endpoint-url https://s3.${{ vars.SCW_REGION }}.scw.cloud \
+            --content-type application/pdf --content-disposition inline
