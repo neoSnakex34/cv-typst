@@ -6,7 +6,10 @@ on:
   workflow_dispatch:
 
 permissions: {}
-
+env:
+  AWS_ACCESS_KEY_ID: ${{ secrets.SCW_ACCESS_KEY }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.SCW_SECRET_KEY }}
+  AWS_DEFAULT_REGION: ${{ vars.SCW_REGION }}
 # note the container pull is suboptimal but for now it is the only
 # way possible for lean deploy, returning on it later
 jobs:
