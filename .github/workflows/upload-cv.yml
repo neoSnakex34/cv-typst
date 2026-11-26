@@ -7,6 +7,8 @@ on:
 
 permissions: {}
 
+# note the container pull is suboptimal but for now it is the only
+# way possible for lean deploy, returning on it later
 jobs:
   upload:
     # runs-on only names the host VM GitHub provides anyway; the job steps
@@ -14,6 +16,15 @@ jobs:
     runs-on: ubuntu-latest
     container: alpine:3.20
     steps:
+      - name: Check config
+        env:
+          AK: ${{ secrets.SCW_ACCESS_KEY }}
+          SK: ${{ secrets.SCW_SECRET_KEY }}
+        run: |
+          echo "bucket=${{ vars.SCW_BUCKET }}"
+          echo "region=${{ vars.SCW_REGION }}"
+          [ -n "$AK" ] && echo "access key presente" || echo "access key VUOTA"
+          [ -n "$SK" ] && echo "secret key presente" || echo "secret key VUOTA"
       # everything via apk. nodejs is only needed so the actions below
       # (checkout, cache) can run inside the container.
       - run: apk add --no-cache nodejs aws-cli
