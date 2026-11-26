@@ -57,7 +57,9 @@ jobs:
         run: |
           aws s3 cp main.pdf s3://${{ vars.SCW_BUCKET }}/cv/cv.pdf \
             --endpoint-url https://s3.${{ vars.SCW_REGION }}.scw.cloud \
-            --content-type application/pdf --content-disposition inline
+            --content-type application/pdf --content-disposition inline \
+            --cache-control "public, max-age=86400"
           aws s3 cp main_ita.pdf s3://${{ vars.SCW_BUCKET }}/cv/cv-ita.pdf \
             --endpoint-url https://s3.${{ vars.SCW_REGION }}.scw.cloud \
-            --content-type application/pdf --content-disposition inline
+            --content-type application/pdf --content-disposition inline \
+            --cache-control "public, max-age=86400"
