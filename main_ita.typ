@@ -102,7 +102,7 @@ Esperienza anche nello sviluppo backend moderno e nei workflow cloud native, col
 #project(
   name: "Homelab Distribuito",
   tech-used: "Tailscale, Podman, Quadlets, Debian, Networking e Cybersec",
-  url: "lnkd.in/p/dRNaYS3g",
+  url: "francescojames.dev/blog/post-4",
 )
 - Setup homelab composto di due nodi con cura al networking sicuro, monitoraggio, gestione dei container e soluzione di backup
 - Nodo principale dedicato allo streaming della mia collezione musicale
